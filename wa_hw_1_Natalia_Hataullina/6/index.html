@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Разноцветные ссылки</title>
+    <style>
+         nav {
+            background-color: darkslategray;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li { 
+            display: inline-block;
+            height: 25px;
+            padding: 5px;
+            border-right: 1px solid lightgray;
+            font-size: 15px;
+        }
+        li:last-child {
+            border-right: none;
+        }
+        .link-one {
+            color: red;
+        }
+        .link-two {
+            color: aqua;
+        }
+        .link-three {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="./link-one.html" class="link-one">Ссылка 1</a>
+            </li>
+            <li>
+                <a href="./link-two.html" class="link-two">Ссылка 2</a>
+            </li>
+            <li>
+                <a href="./link-three.html" class="link-three">Ссылка 3</a>
+            </li>
+        </ul>
+    </nav>
+    <p><a href="../index.html">На главную</a></p>
+</body>
+</html>
