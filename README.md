@@ -1,1 +1,1 @@
-## Ссылка на проект https://natalia-hataullina.github.io/7/
+## Ссылка на проект  https://github.com/natalia-hataullina/wa_hw_Natalia_Hataullina.git
