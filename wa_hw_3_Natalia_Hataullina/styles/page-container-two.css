@@ -1,0 +1,105 @@
+.page-container-two {
+    display: flex;
+    width: 100%;
+    height: 45vh;
+    max-height: 700px;
+    min-height: 100px;
+    margin-top: 25px;
+}
+.block {
+    width: 60vw;
+}
+.block.one {
+    width: 60vw;
+    height: auto;
+    background: url(../assets/Layer59.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.two {
+    background-color: #fff;
+    position: relative;
+}
+.two:before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px ;
+    border-color: transparent transparent white transparent;
+    position: absolute;
+    bottom: 50%;
+    left: -14px;
+    transform: rotate(270deg);
+}
+.two>p:first-child {
+    font-family: Lato, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #33373a;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 18px;
+    border-bottom: 1px solid #ff7199;
+}
+p {
+    font-family: Lato, sans-serif;
+    color: #a7abb6;
+    padding: 10px;
+    margin: 18px;
+}
+.picture {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25px;
+}
+.profile-foto {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.alex-costa {
+    color: #34343c;
+    margin-left: 5px;
+}
+.like {
+    background: url(../assets/like.png) no-repeat;
+}
+.counter {
+    color:#858e9d;
+    margin-left: 5px;
+    margin-right: 25px;
+    font-size: 0.8em;
+}
+.three {
+    margin-left: 30px;
+    display: flex;
+}
+.block-three_foto {
+    background: url(../assets/Layer60.jpg) no-repeat;
+    background-size: 100% 100%;
+    width: 75%;
+    height: 100%;
+    margin: 0;
+}
+.reaction {
+    background-color: #fff;
+    width: 25%;
+    margin: 0;
+}
+.block-three {
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    border-bottom: 1px solid #dde0e7;
+    margin: 0;
+}
+.block-three:last-child {
+    border-bottom: none;
+}
+.block_three_counter {
+    text-align: center;
+}

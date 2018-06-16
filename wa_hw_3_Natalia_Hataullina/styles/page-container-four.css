@@ -1,0 +1,52 @@
+.page-container-four {
+    width: 100%;
+    height: 93vh;
+    background: url(../assets/photo.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    margin-top: 30px;
+}
+.page-container-four_block_books {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 50%;
+    border-bottom: 3px double #cdd4de;
+    color:#33363b;
+    font-family: "Mohave", sans-serif;
+    text-transform: uppercase;
+}
+.books {
+    border-bottom: 3px double #cdd4de;
+    color:#33363b;
+    padding: 3px 0;
+    font-family: "Mohave", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.page-container-four_block_header {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(25%);
+    width: 25%;
+    text-align: left;
+}
+.page-container-four_block_header {
+    font-family: "Antic Didone";
+    font-size: 250px;
+    text-transform: capitalize;
+}
+.page-container-four_block_info {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    width: 45%;
+    border-top: 3px double #cdd4de;
+    display: flex;
+    justify-content: flex-start;
+    color: #878d99;
+}
+.authors-name {
+    color: #fea24f;
+}

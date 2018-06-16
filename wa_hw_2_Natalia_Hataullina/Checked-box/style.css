@@ -1,0 +1,58 @@
+.hide {
+    display: none; 
+}
+.hide + label ~ span{
+    display: none;
+}
+/* оформляем текст label */
+.hide ~ label {
+    padding: 0;
+    cursor: pointer;
+    display: inline-block; 
+    opacity: 0.6;
+}
+label {
+    text-decoration: underline;
+}
+.color-red {
+    color: red;
+}
+.color-green {
+    color: green;
+}
+.color-blue {
+    color: blue;
+}
+input:checked+label.color-red~span.red {
+    display: inline;
+}
+input:checked+label.color-green~span.green {
+    display: inline;
+}
+input:checked+label.color-blue~span.blue {
+    display: inline;
+}
+span.red {
+    background-color: red;
+    color: white;
+    padding: 4px;
+    border-radius: 8px;
+    display: inline-block;
+}
+span.green {
+    background-color: green;
+    color: white;
+    padding: 4px;
+    border-radius: 8px;
+    display: inline-block;
+}
+span.blue {
+    background-color: blue;
+    color: white;
+    padding: 4px;
+    border-radius: 8px;
+    display: inline-block;
+}
+.demo {
+    margin: 50px 30px;
+}
